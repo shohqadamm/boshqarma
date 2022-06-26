@@ -108,12 +108,8 @@ header .header-languages{
     color: #fff;
 }
 
-.carousel-one{
-    background-color: rgb(31, 87, 208);
-    display: grid;
-    place-items: center;
-    color: #fff;
-    padding:150px 0
+.carousel img{
+    max-width: 100%;
 }
 
 
