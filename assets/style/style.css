@@ -123,6 +123,7 @@ header .header-languages{
 .main .all-news{
     border-right: 1px solid rgb(15, 42, 79);
     padding-right: 20px;
+    width: 50%;
 }
 .main .all-news .news-list{
     display: flex;
@@ -140,14 +141,21 @@ header .header-languages{
 
 .main .search-map{
     padding-left: 20px;
+    width: 50%;
 }
 .main .search-map .search-map--content{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-/* .main .search-map .search-map--content img{
-    transform: rotate(90deg);
-} */
+.main .search-map .search-map--content img{
+ width: 50%;
+}
+ 
+.main .search-map .list-mapaddress{
+    width: 40%
+} 
+
 .main .search-map .list-mapaddress li:nth-child(odd) {
     background-color: rgb(31, 87, 208);
     color: #fff;
