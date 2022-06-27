@@ -47,6 +47,7 @@ header{
 header .container{
     display: flex;
     align-items: center;
+    gap:10px;
     justify-content: space-between;
     border-bottom: 1px solid rgb(15, 42, 79);
     padding: 20px 0;
@@ -67,7 +68,10 @@ header .brand .logo{
     display: grid;;
     place-items: center;
     border-radius: 50%;
-    padding: 30px;
+}
+
+.header .brand .logo img{
+    width: 100%;
 }
 
 header .header-languages{
